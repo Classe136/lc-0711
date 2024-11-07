@@ -1,0 +1,38 @@
+/* Global Styles */
+/* Custom Properties */
+:root {
+    --color-white: #ffffff;
+    --color-bg-color: #d9d9d9;
+    --color-primary: #7c69a4;
+    --color-dark-text: #4e3969;
+    --color-black: #282529;
+    --color-contrast: #fa961a;
+    --color-icon-red: #ea5556;
+    --color-icon-blue: #2871f0;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 30px auto;
+
+}
+
+p {
+    padding: 20px;
+}
