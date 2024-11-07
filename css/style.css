@@ -36,3 +36,19 @@ body {
 p {
     padding: 20px;
 }
+
+.titleColor {
+    color: var(--color-contrast);
+}
+
+.titleColor2 {
+    color: var(--color-icon-red);
+}
+
+.bg-red {
+    background-color: #ea5556;
+}
+
+.bg-blue {
+    background-color: var(--color-icon-blue);
+}
